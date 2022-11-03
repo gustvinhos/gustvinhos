@@ -5,6 +5,7 @@
 
 Email: thiagoreis181310@gmail.com
 Linkedin: https://www.linkedin.com/in/thiago-reis-2a2471185/
+Portifolio de Dashboard e Análises: https://drive.google.com/drive/u/0/folders/1fYN9MBr7om2lzQy1R3V93Uf4xuTbgH4r
 
 <!---
 gustvinhos/gustvinhos is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
