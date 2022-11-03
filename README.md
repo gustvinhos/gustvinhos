@@ -1,6 +1,6 @@
-- 👋 Hi, Sou o Thiago Reis
-- 👀 Tenho muito interesse e uma paixão por análise de dados e tecnologia
-- 🌱 No momento estou criando projetos utilizando python e SQL
+- 👋 Hi, Sou o Thiago Reis.
+- 👀 Tenho muito interesse e uma paixão por análise de dados e tecnologia.
+- 🌱 No momento estou criando projetos utilizando python e SQL além de criar várias dashboards (que ganham meu coração).
 - 📫 Você pode me contatar através do Linkedin ou pelo email descritos abaixo. 
 
 Email: thiagoreis181310@gmail.com
