@@ -1,6 +1,6 @@
 <h1 align="center">Olá, eu sou o Thiago 👋</h1>
 <p align="center">
-  <em>Engenheiro de Software & Analista de Dados</em><br/>
+  <em>Engenheiro de Software & Engenheiro de IA</em><br/>
   Construindo agentes de IA e produtos de dados que viram decisão.
 </p>
 
