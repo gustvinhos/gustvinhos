@@ -39,13 +39,8 @@ Cross-platform production app live on iOS and Android since 2025.
 
 <p>
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api?username=gustvinhos&show_icons=true&theme=github_dark&hide_border=true&hide_rank=true&include_all_commits=true&count_private=true" />
-    <img height="165" alt="GitHub stats for gustvinhos" src="https://github-readme-stats.vercel.app/api?username=gustvinhos&show_icons=true&theme=default&hide_border=true&hide_rank=true&include_all_commits=true&count_private=true" />
-  </picture>
-  &nbsp;
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api/top-langs/?username=gustvinhos&layout=compact&theme=github_dark&hide_border=true&langs_count=6&count_private=true" />
-    <img height="165" alt="Top languages for gustvinhos" src="https://github-readme-stats.vercel.app/api/top-langs/?username=gustvinhos&layout=compact&theme=default&hide_border=true&langs_count=6&count_private=true" />
+    <source media="(prefers-color-scheme: dark)" srcset="images/github-stats-dark.svg" />
+    <img alt="GitHub stats for gustvinhos" src="images/github-stats-light.svg" />
   </picture>
 </p>
 

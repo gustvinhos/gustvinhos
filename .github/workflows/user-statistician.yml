@@ -1,0 +1,48 @@
+# Generates the profile stats SVGs with cicirello/user-statistician.
+# Schedule and manual runs only: a push trigger would loop, because the
+# action commits the SVGs back to the repository (commit-and-push defaults to true).
+# Private contributions stay visible: "private" is not in hide-keys.
+# GitHub's restrictedContributionsCount is shown as Private Contributions when
+# private contributions are included on the profile. Counts of zero auto-hide.
+
+name: user-statistician
+
+on:
+  schedule:
+    - cron: '0 8 * * *'
+  workflow_dispatch:
+
+jobs:
+  stats:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+      - uses: actions/checkout@v6
+
+      - name: Generate the light theme stats image
+        uses: cicirello/user-statistician@v1
+        with:
+          image-file: images/github-stats-light.svg
+          colors: light
+          hide-keys: general
+          category-order: contributions, repositories, languages
+          max-languages: 6
+          show-border: false
+          commit-and-push: true
+        env:
+          GITHUB_TOKEN: ${{secrets.GITHUB_TOKEN}}
+
+      - name: Generate the dark theme stats image
+        uses: cicirello/user-statistician@v1
+        with:
+          image-file: images/github-stats-dark.svg
+          colors: dark
+          hide-keys: general
+          category-order: contributions, repositories, languages
+          max-languages: 6
+          show-border: false
+          commit-and-push: true
+        env:
+          GITHUB_TOKEN: ${{secrets.GITHUB_TOKEN}}
